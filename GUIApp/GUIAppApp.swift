@@ -11,7 +11,28 @@ import SwiftUI
 struct GUIAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
-        }
+         
+         
+       // }//hstack
+         ContentView()
+//         SetUpOne()
+//            .tabItem {
+//               Image(systemName: "gearshape")
+//            }
+//         SetUpTwo()
+//            .tabItem {
+//            Image(systemName: "gearshape.fill")
+//         }
+//
+//         //     .foregroundColor(/*@START_MENU_TOKEN@*/.blue/*@END_MENU_TOKEN@*/)
+                           
+        
+        
+    }
+//     .tabViewStyle(PageTabViewStyle())
+//     .indexViewStyle(PageIndexViewStyle(backgroundDisplayMode: .always))
+//
+           
+        
     }
 }

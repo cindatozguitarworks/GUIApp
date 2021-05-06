@@ -11,6 +11,14 @@
 		576116AF260EA2A30079A0B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576116AE260EA2A30079A0B6 /* ContentView.swift */; };
 		576116B1260EA2A40079A0B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 576116B0260EA2A40079A0B6 /* Assets.xcassets */; };
 		576116B4260EA2A40079A0B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 576116B3260EA2A40079A0B6 /* Preview Assets.xcassets */; };
+		576116C1260EA3AE0079A0B6 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576116BE260EA3AE0079A0B6 /* UIColorExtension.swift */; };
+		576116C2260EA3AE0079A0B6 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576116BF260EA3AE0079A0B6 /* ColorExtension.swift */; };
+		576116C3260EA3AE0079A0B6 /* LinearGradientExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576116C0260EA3AE0079A0B6 /* LinearGradientExtension.swift */; };
+		576116C8260EA9050079A0B6 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576116C7260EA9050079A0B6 /* ViewExtension.swift */; };
+		576B2933262772DA00E5AE31 /* SetUpOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576B2932262772DA00E5AE31 /* SetUpOne.swift */; };
+		576B29622627B23300E5AE31 /* SetUpTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576B29612627B23300E5AE31 /* SetUpTwo.swift */; };
+		576B29662628E70000E5AE31 /* Guitar1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 576B29652628E70000E5AE31 /* Guitar1.jpg */; };
+		576B2974262A383E00E5AE31 /* GuiPickupButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576B2973262A383E00E5AE31 /* GuiPickupButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +28,14 @@
 		576116B0260EA2A40079A0B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		576116B3260EA2A40079A0B6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		576116B5260EA2A40079A0B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		576116BE260EA3AE0079A0B6 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		576116BF260EA3AE0079A0B6 /* ColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		576116C0260EA3AE0079A0B6 /* LinearGradientExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinearGradientExtension.swift; sourceTree = "<group>"; };
+		576116C7260EA9050079A0B6 /* ViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		576B2932262772DA00E5AE31 /* SetUpOne.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetUpOne.swift; sourceTree = "<group>"; };
+		576B29612627B23300E5AE31 /* SetUpTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetUpTwo.swift; sourceTree = "<group>"; };
+		576B29652628E70000E5AE31 /* Guitar1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Guitar1.jpg; sourceTree = "<group>"; };
+		576B2973262A383E00E5AE31 /* GuiPickupButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuiPickupButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +52,8 @@
 		576116A0260EA2A30079A0B6 = {
 			isa = PBXGroup;
 			children = (
+				576B2972262A381200E5AE31 /* GuiExt */,
+				576116BC260EA3420079A0B6 /* NeumorpExt */,
 				576116AB260EA2A30079A0B6 /* GUIApp */,
 				576116AA260EA2A30079A0B6 /* Products */,
 			);
@@ -54,7 +72,10 @@
 			children = (
 				576116AC260EA2A30079A0B6 /* GUIAppApp.swift */,
 				576116AE260EA2A30079A0B6 /* ContentView.swift */,
+				576B2932262772DA00E5AE31 /* SetUpOne.swift */,
+				576B29612627B23300E5AE31 /* SetUpTwo.swift */,
 				576116B0260EA2A40079A0B6 /* Assets.xcassets */,
+				576B29652628E70000E5AE31 /* Guitar1.jpg */,
 				576116B5260EA2A40079A0B6 /* Info.plist */,
 				576116B2260EA2A40079A0B6 /* Preview Content */,
 			);
@@ -67,6 +88,25 @@
 				576116B3260EA2A40079A0B6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		576116BC260EA3420079A0B6 /* NeumorpExt */ = {
+			isa = PBXGroup;
+			children = (
+				576116C7260EA9050079A0B6 /* ViewExtension.swift */,
+				576116BE260EA3AE0079A0B6 /* UIColorExtension.swift */,
+				576116C0260EA3AE0079A0B6 /* LinearGradientExtension.swift */,
+				576116BF260EA3AE0079A0B6 /* ColorExtension.swift */,
+			);
+			path = NeumorpExt;
+			sourceTree = "<group>";
+		};
+		576B2972262A381200E5AE31 /* GuiExt */ = {
+			isa = PBXGroup;
+			children = (
+				576B2973262A383E00E5AE31 /* GuiPickupButton.swift */,
+			);
+			path = GuiExt;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				576116B4260EA2A40079A0B6 /* Preview Assets.xcassets in Resources */,
+				576B29662628E70000E5AE31 /* Guitar1.jpg in Resources */,
 				576116B1260EA2A40079A0B6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +179,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				576116C8260EA9050079A0B6 /* ViewExtension.swift in Sources */,
 				576116AF260EA2A30079A0B6 /* ContentView.swift in Sources */,
 				576116AD260EA2A30079A0B6 /* GUIAppApp.swift in Sources */,
+				576116C1260EA3AE0079A0B6 /* UIColorExtension.swift in Sources */,
+				576B29622627B23300E5AE31 /* SetUpTwo.swift in Sources */,
+				576B2933262772DA00E5AE31 /* SetUpOne.swift in Sources */,
+				576116C3260EA3AE0079A0B6 /* LinearGradientExtension.swift in Sources */,
+				576B2974262A383E00E5AE31 /* GuiPickupButton.swift in Sources */,
+				576116C2260EA3AE0079A0B6 /* ColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,14 +313,13 @@
 		576116B9260EA2A40079A0B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"GUIApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 9NGWNQGS6L;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = GUIApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -287,14 +334,13 @@
 		576116BA260EA2A40079A0B6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"GUIApp/Preview Content\"";
 				DEVELOPMENT_TEAM = 9NGWNQGS6L;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = GUIApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
